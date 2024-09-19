@@ -1,0 +1,310 @@
+
+        .info-banner {
+            background-color: #a3d8ff; /* Light blue background */
+            color: #00008b; /* Dark blue text */
+            padding: 10px 0;
+            text-align: center;
+            /* max-height: 43px; */
+            font-size: 14px;
+           
+        }
+        .info-item {
+            display: inline-block;
+            margin: 0 15px;
+        }
+        .info-item i {
+            margin-right: 5px;
+        }
+
+
+        .banner {
+            max-height: 88px;
+            background-color: #fff;
+            
+        }
+    
+
+        .navbar-nav .nav-link{
+            color: #00008b;
+            font-weight: 600;
+            font-size: 17px;
+            margin-right: 10px;
+
+        }
+
+        .navbar-brand {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%); /* Centering horizontally */
+            width: 200px;
+        }
+        
+        @media (max-width: 768px) {
+            .navbar-brand {
+                width: 150px; /* Adjust width for smaller screens */
+            }
+        }
+        
+        @media (max-width: 576px) {
+            .navbar-brand {
+                position: relative;
+                left: auto;
+                transform: none;
+                width: 100px; /* Adjust width for extra small screens */
+            }
+        }
+        
+    
+        .shop-btn {
+            float: right;
+            background-color: #ffd700;
+            border: none;
+            padding: 10px 20px; 
+            border-radius: 25px;
+            color: #000;
+            font-weight: bold;
+        }
+        .cart-icon {
+            font-size: 24px;
+            color: #00008b;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+        }
+        
+        .icons img {
+            width: 40px;
+            height: auto;
+        }
+        
+        .badge {
+            font-size: 1rem;
+        }
+        .img-section img{
+            width: 156px;
+           
+        }
+        .skin-problem{
+            margin-left: 10%;
+            margin-right: 10%;
+
+        }
+        footer {
+            background-color: #ffffff;
+        }
+        
+        footer h3 {
+            font-size: 1.2rem;
+            color: #1b1f55;
+            font-weight: bold;
+        }
+        
+        footer p, footer a {
+            color: #00008b;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+        
+        footer a {
+            text-decoration: none;
+        }
+        
+        footer a:hover {
+            text-decoration: underline;
+        }
+        
+        .input-group {
+            max-width: 400px;
+            margin-top: 10px;
+        }
+        
+        .input-group .form-control {
+            border-radius: 0;
+        }
+        
+        .input-group .btn {
+            border-radius: 0;
+            background-color: #ffcb05;
+            color: #1b1f55;
+            font-weight: bold;
+        }
+        
+        .social-icons img {
+            width: 24px;
+            height: 24px;
+        }
+        
+        .payment-options img {
+            width: 40px;
+        }
+        
+        footer hr {
+            border-color: #d3d3d3;
+        }
+        
+        footer .small {
+            font-size: 0.8rem;
+        }
+
+        .articles-section {
+            
+            color: #ffffff;
+        }
+        
+        .section-title {
+            color: #1b1f55;
+            font-size: 2rem;
+            font-weight: bold;
+        }
+        
+        .section-subtitle {
+            font-size: 1.1rem;
+            color: #8a8aff;
+        }
+        
+        .card {
+            background-color: #ffffff;
+            border: none;
+        }
+        
+        .card-meta {
+            font-size: 0.8rem;
+            color: #666666;
+        }
+        
+        .card-title {
+            font-size: 1rem;
+            color: #1b1f55;
+            font-weight: bold;
+        }
+        
+        .card-link {
+            font-size: 0.9rem;
+            color: #1b1f55;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        
+        .card-link:hover {
+            text-decoration: underline;
+        }
+        
+        .learn-more-btn {
+            background-color: #ffcb05;
+            color: #1b1f55;
+            font-weight: bold;
+            border: none;
+            padding: 10px 40px;
+        }
+        
+        .learn-more-btn:hover {
+            background-color: #e6b700;
+        }
+
+        .featured-dogs-section {
+            background-color:#ECEFFE;
+            color: #1b1f55;
+        }
+        
+        .section-title {
+            font-size: 2rem;
+            font-weight: bold;
+        }
+        
+        .social-handle {
+            font-size: 1.1rem;
+            color: #000072;
+            ;
+        }
+        
+        .social-icons a {
+            color: #1b1f55;
+            font-size: 1.5rem;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+        
+        .section-description {
+            font-size: 1.1rem;
+            color: #000072;
+            ;
+        }
+        
+        .hashtag {
+            color: #1b1f55;
+            font-weight: bold;
+        }
+        
+        .dog-logo {
+            width: 60px;
+            height: auto;
+        }
+        
+        .dog-photo img {
+            border-radius: 10px;
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+
+        .story-section {
+            padding: 30px;
+            /* background-color: #d2d5f4; */
+            width: 100%;
+        }
+        .story-image {
+            width: 665px;
+            height: 499px;
+            border-radius: 50px;
+        }
+        .story-content {
+            color: #23294d;
+        }
+        .story-content h2 {
+            font-weight: bold;
+            color: #23294d;
+        }
+        .story-content p {
+            font-size: 18px;
+        }
+        .story-content a {
+            color: #23294d;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .story-content a:hover {
+            text-decoration: underline;
+        }
+
+        .why-section {
+            padding: 50px 0;
+            text-align: center;
+            color: #23294d;
+        }
+        .why-section h2 {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .why-section p {
+            font-size: 18px;
+            margin-bottom: 40px;
+        }
+        .why-feature {
+            margin-bottom: 30px;
+        }
+        .why-feature h4 {
+            font-weight: bold;
+            margin-top: 15px;
+            margin-bottom: 10px;
+        }
+        .why-feature img {
+            width: 325px;
+            border-radius: 10px;
+        }
+        .checkmark img {
+            width: 44px;
+            color: #1e90ff; /* Blue checkmark */
+            font-size: 24px;
+            margin-top: 10px;
+        }
